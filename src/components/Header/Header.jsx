@@ -33,16 +33,7 @@ const Header = () => {
               >
                 Links
               </NavLink>
-            </li>
-            <li>
-              <NavLink 
-                to="/roadmap" 
-                activeClassName="text-blue-500"
-                className="text-white hover:text-blue-400 font-spaceMono"
-              >
-                Whitepaper
-              </NavLink>
-            </li>
+            </li> 
           </ul>
         </nav>
       </div>
