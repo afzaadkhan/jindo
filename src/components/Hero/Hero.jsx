@@ -23,7 +23,7 @@ const Hero = () => {
       <section className="bg-gradient-to-r from-blue-600 to-blue-950 text-white py-20">
         <div className="container mx-auto text-center">
           <div className="flex flex-col md:flex-row items-center md:space-x-8">
-            <img src="https://files.oaiusercontent.com/file-sxF8C6rPyltXDnv8LJWaO7oL?se=2024-06-08T20%3A04%3A58Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D89626136-540a-403d-ba96-3707c5baabee.webp&sig=JPuzLfNWvn10Nn%2Bt84IuR7FulIYc87L/e7wSLJoY/Ok%3D" alt="Meme 1" className="w-full md:w-1/2 mb-8 md:mb-0 rounded-lg shadow-lg animate-relax-scale" />
+            <img src="https://i.ibb.co/TTtZqLG/DALL-E-2024-06-09-02-01-39-A-highly-detailed-and-unique-illustration-of-a-white-dog-resembling-the-r.webp" alt="Meme 1" className="w-full md:w-1/2 mb-8 md:mb-0 rounded-lg shadow-lg animate-relax-scale" />
             <div>
               <h2 className="text-4xl font-bold mb-4 font-spaceMono">Jindo Inu Leading the Bull Run</h2>
               <p className="font-redditMono mb-4">"When Jindo Inu leads the bull run and your portfolio is smiling."</p>
@@ -36,7 +36,7 @@ const Hero = () => {
       <section className="bg-gradient-to-r from-blue-600 to-blue-950 text-white py-20">
         <div className="container mx-auto text-center">
           <div className="flex flex-col md:flex-row items-center md:space-x-8">
-            <img src="https://files.oaiusercontent.com/file-HfXriHQW4BEQHbngfeNktbJ3?se=2024-06-08T20%3A10%3A12Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D793fcff1-3a35-4a83-b536-b621435b54c6.webp&sig=xA7ZNuB1gm/LKetOKmpdBaiiVsNEowYgCPoOkOdQZmA%3D" alt="Meme 2" className="w-full md:w-1/2 mb-8 md:mb-0 rounded-lg shadow-lg animate-relax-scale" />
+            <img src="https://i.ibb.co/M7dQxFB/DALL-E-2024-06-09-01-00-02-A-highly-detailed-and-vibrant-illustration-of-a-white-dog-resembling-the.webp" alt="Meme 2" className="w-full md:w-1/2 mb-8 md:mb-0 rounded-lg shadow-lg animate-relax-scale" />
             <div>
               <h2 className="text-4xl font-bold mb-4 font-spaceMono">To the Moon!</h2>
               <p className="font-redditMono mb-4">"To the moon! Jindo Inu style."</p>
