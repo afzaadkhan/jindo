@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes bounceScale {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-15px) scale(1.1);
+    }
+  }
+  
+  .animate-bounce-scale {
+    animation: bounceScale 2s infinite;
+  }
+  
+  @keyframes relaxScale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+  
+  .animate-relax-scale {
+    animation: relaxScale 3s infinite;
+    transition: border-radius 0.3s ease;
+  }
+  
+  /* Apply rounded corners to specific images */
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  /* Custom scrollbar for modern look */
+html, body {
+    scrollbar-width: thin;          /* For Firefox */
+    scrollbar-color: #18406d #00214a; /* For Firefox */
+  }
+  
+  /* For Webkit browsers (Chrome, Safari) */
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+    background: #2A2A2A;
+  }
+  
+  html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+    background-color: #4A90E2;
+    border-radius: 10px;
+    border: 2px solid #2A2A2A;
+  }
+  
+  html::-webkit-scrollbar-thumb:hover, body::-webkit-scrollbar-thumb:hover {
+    background-color: #3A79C2;
+  }
+  
